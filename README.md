@@ -1,6 +1,7 @@
-# Clinical-Appointment-Management-and-Doctor-Correspondence-Web-Application
+# 🟡 Clinical Appointment Management and Doctor Correspondence Web Application 🟡
 
-🔸The project is a web based medical care system which deals in connecting patients with doctors around the globe so that they can carry out medical treatment from the comfort of their home. Not only this but the patient can also check for a disease they may have contracted from just a click of a button due to the symptom checker ability we provide for them.
+🔸The project is a web based medical care system which deals in connecting patients with doctors around the globe so that they can carry out medical
+treatment from the comfort of their home. Not only this but the patient can also check for a disease they may have contracted from just a click of a button due to the symptom checker ability we provide for them.
 
 🔸Our product provides multiple functions for our end users. We provide a login and signup function in which a user first creates an account on our platform using his desired credentials.
 
