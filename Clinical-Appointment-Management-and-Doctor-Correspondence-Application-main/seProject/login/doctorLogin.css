@@ -1,0 +1,255 @@
+#body
+{
+	font-family: Trebuchet MS, sans-serif;
+	background-image: url(home7.jpg);
+	background-color: Black;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	text-align: left;
+	align-items: left;
+	margin: 0;
+}
+
+.navBar
+{
+	font-family: Lucida Console, sans-serif;
+	font-variant: small-caps;
+	font-size: x-large;
+	color: white;
+	margin: 0 auto;
+	width: 80%;
+	animation: slide 5s ease-in;
+
+}
+
+.logo
+{
+	width: 240px;
+	height: 170px;
+	float: left;
+	padding-top: 40px;
+}
+
+@keyframes slide {
+    25% { top: 0px; }
+}
+header
+{
+	border-width: 20px;
+	border-color: white;
+	color: white;
+	position: relative;
+	margin-top: 0px;
+	z-index: 1;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav{
+	float: right;
+	border-bottom-color: White;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 60px;
+
+	position: relative;
+}
+
+nav a::before{
+	content: "";
+	display: block;
+	color: white;
+	height: 4px;
+	width: 0%;
+	background-color: White;
+	position: absolute;
+	top: 136px;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+.imageAndName
+{
+	font-size: 19px;
+	top: -350px;
+	text-align: left;
+	color: white;
+	margin: auto;
+	display: block;
+	align-items: left;
+	font-family: Trebuchet MS, sans-serif;
+	color: white;
+	text-align: left;
+	padding-left: 200px;
+	padding-top: 35%;
+	padding-right: 1100px;
+	background-image: url(back.png);
+	padding-bottom: 50%;
+	z-index: 0;
+	position:absolute;
+}
+#name
+{
+	
+
+}
+
+a.signLog:link{
+	background-color: #4A4A4A;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0s background-color color font-size;
+	-webkit-box-shadow: 0 10px 6px -6px #0C0C0C;
+     -moz-box-shadow: 0 10px 6px -6px #0C0C0C;
+          box-shadow: 0 10px 6px -6px #0C0C0C;
+}
+a.signLog:visited
+{
+	color: white;
+}
+a.signLog:hover{
+	color: #4A4A4A;
+	background-color: white;
+
+	padding: 10px;
+	border-radius: 10px;
+	transition-delay: 0.2s;
+	-webkit-box-shadow: 0 10px 6px -6px #0C0C0C;
+     -moz-box-shadow: 0 10px 6px -6px #0C0C0C;
+          box-shadow: 0 10px 6px -6px #0C0C0C;
+}
+
+a.signLog:active
+{
+	color: #4A4A4A;;
+}
+
+a.buttons:link{
+	color: White;
+	text-decoration: none;
+}
+
+a.buttons:visited
+{
+	color: white;
+}
+
+a.buttons:hover{
+	color: #4A4A4A;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+a.buttons:active
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #4A4A4A;;
+
+}
+
+
+.back
+{
+	size: 200%;
+}
+
+.docPatient
+{
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 60px;
+	color: white;
+	width: 40%;
+	padding-right: 100px;
+	z-index: 2;
+	position: absolute;
+	top: 350px;
+	left: 1200px;
+}
+
+#or
+{
+	text-align: center;
+
+}
+
+.date
+{
+  background-color: whitesmoke;
+  height: 30px;
+  border: 3px solid #2D2828;
+  border-radius: 15px;
+  font-size: 17px;
+  color: #2D2828;
+  width: 200px;
+}
+
+.date:hover
+{
+  background-color: #564D4D;
+  color: whitesmoke;
+-webkit-box-shadow: 0 10px 6px -6px #000000;
+     -moz-box-shadow: 0 10px 6px -6px #000000;
+          box-shadow: 0 10px 6px -6px #000000;
+}
+
+.submitButton
+{
+  background-color: whitesmoke;
+  height: 43px;
+  border: 3px solid #2D2828;
+  border-radius: 15px;
+  font-size: 17px;
+color: #2D2828;
+  width: 150px;
+}
+.submitButton:hover
+{
+  background-color: #564D4D;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 41px 51px, rgba(0, 0, 0, 0.22) 0px 28px 10px;
+  -webkit-box-shadow: 0 10px 6px -6px #000000;
+     -moz-box-shadow: 0 10px 6px -6px #000000;
+          box-shadow: 0 10px 6px -6px #000000;
+}
+span{
+	opacity: 0;
+	transition: all 0.4s ease;
+	transform: translateY(50px);
+}
+
+span.fade
+{
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+
+
+/** Large Devices Only **/
+@media(min-width: 1200px)
+	#body{
+
+	}

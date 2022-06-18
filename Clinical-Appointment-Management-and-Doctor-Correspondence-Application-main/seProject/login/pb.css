@@ -1,0 +1,128 @@
+#body
+{
+  font-family: Trebuchet MS, sans-serif;
+  background-color: whitesmoke;
+  color: #2D2828;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  text-align: left;
+  margin: 0;
+}
+
+.bookingForm
+{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 41px 51px, rgba(0, 0, 0, 0.22) 0px 28px 10px;
+  width: 35%;
+  position: absolute;
+  align-text: left;
+  top: 150px;
+  left: 520px;
+  padding: 40px;
+  padding-left: 180px;
+  z-index: 1;
+}
+
+.texty
+{
+  font-size: 25px;
+  font-weight: 2px;
+}
+
+.lab
+{
+  font-size: 20px;
+  font-weight: 2px;
+}
+
+.date
+{
+  background-color: whitesmoke;
+  height: 30px;
+  border: 3px solid #2D2828;
+  border-radius: 15px;
+  font-size: 17px;
+  color: #2D2828;
+  width: 200px;
+}
+.lap
+{
+  display: none;
+  z-index: -3;
+
+}
+.time
+{
+  background-color: whitesmoke;
+  height: 30px;
+  border: 3px solid #2D2828;
+  border-radius: 15px;
+  font-size: 17px;
+  width: 200px;
+
+}
+
+.submitButton
+{
+  background-color: whitesmoke;
+  height: 43px;
+  border: 3px solid #2D2828;
+  border-radius: 15px;
+  font-size: 17px;
+color: #2D2828;
+  width: 150px;
+}
+
+.date:hover
+{
+  background-color: #564D4D;
+  color: whitesmoke;
+-webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+.time:hover
+{
+  background-color: #564D4D;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 41px 51px, rgba(0, 0, 0, 0.22) 0px 28px 10px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+.submitButton:hover
+{
+  background-color: #564D4D;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 41px 51px, rgba(0, 0, 0, 0.22) 0px 28px 10px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+.note
+{
+background-color: whitesmoke;
+  height: 200px;
+  border: 3px solid #2D2828;
+  border-radius: 15px;
+  font-size: 17px;
+  color: #2D2828;
+  width: 300px;
+
+}
+
+.note:hover
+{
+background-color: #564D4D;
+  color: whitesmoke;
+-webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
